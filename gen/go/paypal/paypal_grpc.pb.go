@@ -4,7 +4,7 @@
 // - protoc             v5.28.3
 // source: paypal/paypal.proto
 
-package ssov1
+package paypalv1
 
 import (
 	context "context"

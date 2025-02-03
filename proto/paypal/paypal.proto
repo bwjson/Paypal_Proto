@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package paypal;
 
-option go_package = "bwjson.paypal.v1;ssov1";
+option go_package = "bwjson.paypal.v1;paypalv1";
 
 service Paypal {
   rpc BuySubscription (PaymentInfo) returns (Response);
